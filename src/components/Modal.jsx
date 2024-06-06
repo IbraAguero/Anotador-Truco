@@ -12,7 +12,7 @@ const Modal = ({ content, closeModal, open, resetGame }) => {
         <DialogDescription className="flex justify-center items-center">
           {content.content}
         </DialogDescription>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-4 gap-4">
           <Button variant="outline" onClick={closeModal}>
             Cancelar
           </Button>
