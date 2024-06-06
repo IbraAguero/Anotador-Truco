@@ -89,7 +89,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen max-h-screen">
         <header className="text-center p-1">
           <h1 className="font-extrabold text-2xl">Anotador Truco</h1>
         </header>
